@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# Model weights (optional)
+*.pt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+yolov5/weights/
+yolov5/runs/
+yolov5/data/
+yolov5/train.py
+yolov5/val.py
+yolov5/export.py
+yolov5/requirements.txt
